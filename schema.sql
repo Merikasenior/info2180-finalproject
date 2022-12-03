@@ -32,15 +32,13 @@ CREATE TABLE contacttable (
   created_at DATETIME,
   updated_at DATETIME
 );
-DROP TABLE IF EXISTS `notestable`
+DROP TABLE IF EXISTS `notestable`;
 
 CREATE TABLE notestable (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   contact_id int NOT NULL,
   comment TEXT,
   created_by int NOT NULL,
-  created_at DATETIME,
+  created_at DATETIME
 );
 
-INSERT INTO `userstable` (`firstname`, `lastname`, `email`, `password`, `date_joined`) VALUES
-('Super', 'User', 'admin@project2.com', '$2y$10$sjxkpqc9.E9efPFsO23fseSmhCA5.j2HpQR2zfmATQPwpYutfbcdi', '2021-11-13 16:08:27');
