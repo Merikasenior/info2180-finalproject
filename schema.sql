@@ -42,3 +42,4 @@ CREATE TABLE notestable (
   created_at DATETIME
 );
 
+INSERT INTO `userstable` (`firstname`, `lastname`, `password`, `email`,`role` ,`created_at`) VALUES ('user1', 'admin', '$2y$10$J32K.bB0.0s/PUfcrTN/OOzkdUpG3Jwl8uml/QrejVAGkIiMzb5O.', 'admin@project2.com','admin', current_timestamp());
