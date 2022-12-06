@@ -48,12 +48,12 @@ else{
 				<div class="records">
 					<div class="top-button">
 						<h1>Dashboard</h1>
-						<div><button><a href="newcontact.php"><i class="fa fa-plus" aria-hidden="true"></i>Add Contact</a></button></div>
+						<div><button><a href="register_form.php"><i class="fa fa-plus" aria-hidden="true"></i>Add User</a></button></div>
 					</div>	
     
 
     <div id="filters_buttons">
-        <p> <img src='user.png' style="float:left;width:20px;height:20px;">Filter by:</p>
+        <p> <img src='filter.png' style="float:left;width:20px;height:20px;">Filter by:</p>
             <button id = "all" onClick="setActive('all')" >ALL</button>
             <button id = "Sales Leads" onClick="setActive('Sales Leads')">Sales Leads</button>
             <button id = "Support" onClick="setActive('Support')">Support</button>
@@ -85,9 +85,10 @@ else{
                 ?>
                 <tr>
                     <td ><?php echo $row['title']." ".$row['firstname']." ".$row['lastname'] ?></td>
-                    <td ><?php echo $row['email']?></td>
+                    <td ><?php echo $row['email'] ?></td>
                     <td ><?php echo $row['company']?></td>
                     <td ><?php echo $row['type']?></td>
+                    <td><a href="view-contact.html" id= "link">Link</a></td>    
                 </tr>
                 <?php
             }
