@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    background-color: black;
+    font-size: 6px;
+    color: white;
+    padding-left: 20px;
+    padding: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0px;
+}
