@@ -38,8 +38,8 @@ else{
 			<div class="back">
 				<div class="buttons">
 					<div><a href="dashboard.php"><i class="fa fa-home" aria-hidden="true"></i>Home</a></div>
-					<div><a href="newcontact.php"><i class="fa fa-user-circle-o" aria-hidden="true"></i>New Contact</a></div>
-					<div><a href="users.php"><i class="fa fa-users" aria-hidden="true"></i>Users</a></div>
+					<div><a href="create-contact.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>New Contact</a></div>
+					<div><a href="getusers.php"><i class="fa fa-users" aria-hidden="true"></i>Users</a></div>
 					<div><a href="login.php"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a></div>
                     <hr>
 				</div>
