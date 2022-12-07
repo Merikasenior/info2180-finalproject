@@ -1,8 +1,0 @@
-<!-- Author: Janalisa Waugh -->
-<?php
-
-
-
-
-
-?>
