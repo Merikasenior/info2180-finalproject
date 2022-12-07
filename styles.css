@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Taviraj');
+h1 {
+    font-family: Taviraj, Georgia, serif;
+}
+#filter_buttons{
+  align-items: center;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin:auto;
+}
+
+table {
+  border-collapse: collapse;
+  /*border-spacing: 5px;*/
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 20px auto;
+}
+
+th,
+td {
+  padding: 10px 15px;
+}
+
+thead {
+  background: #395870;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background: #a9a9e7;
+}
+
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+
+td:first-child {
+  border-left: 1px solid #bed6f1;
+}
