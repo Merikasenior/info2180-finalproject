@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(23, 23, 33);
+    font-size: 20%;
+    color: white;
+    padding-left: 20px;
+    padding: 10px;
+    text-align:left;
+  
+}
+
+body{
+    margin: 0;
+    padding: 0px;
+}
