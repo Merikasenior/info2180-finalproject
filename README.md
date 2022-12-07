@@ -1,4 +1,3 @@
 # info2180-project
-
-
-Brittany Taylor 
+ 
+Group 9 Final Project
